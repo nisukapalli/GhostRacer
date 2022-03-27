@@ -15,6 +15,13 @@ public:
     StudentWorld(std::string assetPath);
     ~StudentWorld();
     GhostRacer* getPlayer();
+    void pushActor(Actor* a);
+    void zombieCabInit();
+    void checkForActorAhead(ZombieCab* cab, int left, int right);
+    void checkForActorBehind(ZombieCab* cab, int left, int right);
+    void damageObject(HolyWaterProjectile* holyWater);
+    int getSouls();
+    void setSouls(int souls);
     virtual int init();
     virtual int move();
     virtual void cleanUp();
@@ -23,6 +30,7 @@ private:
     GhostRacer* m_player;
     vector<Actor*> m_actors;
     int m_lastWhiteBorderY;
+    int m_souls;
     int m_bonus;
 };
 
