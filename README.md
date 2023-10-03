@@ -1,7 +1,5 @@
 # GhostRacer
 
-Arcade Car Game
-
 GhostRacer is a project applying OOP on an arcade-style game.
 
 ## About the Game
