@@ -1,6 +1,6 @@
 # GhostRacer
 
-CS 32 Project 3 — Arcade Car Game
+Arcade Car Game
 
 GhostRacer is a project applying OOP on an arcade-style game.
 
